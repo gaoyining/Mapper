@@ -1,8 +1,8 @@
 package tk.mybatis.mapper.additional;
 
 
-import tk.mybatis.mapper.additional.idlist.IdListMapper;
+import tk.mybatis.mapper.common.BaseMapper;
 
-public interface CountryMapper extends IdListMapper<Country, Long> {
+public interface CountryMapper extends BaseMapper<Country> {
 
 }
